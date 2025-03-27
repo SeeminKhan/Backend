@@ -5,7 +5,8 @@ A RESTful API for managing user profiles with authentication.
 
 ### **1️⃣ Clone the Repository**  
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/SeeminKhan/Backend.git
+
 cd backend
 ```
 
