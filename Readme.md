@@ -52,12 +52,15 @@ For easy API testing, use the Postman collection:
 ## Here are some sample API responses tested in Postman:
 
 ### 🔹 Register User API
-![Register User](./assets/postman-test-1.png)
+![Register User](./assets/register.png)
 
 ### 🔹 Login API
-![Login API](./assets/postman-test-2.png)
+![Login API](./assets/login.png)
 
 ### 🔹 Get User Profile API
-![User Profile](./assets/postman-test-3.png)
+![User Profile](./assets/profile.png)
+
+### 🔹 Get User Profile API
+![Update User Profile](./assets/update.png)
 
 ---
