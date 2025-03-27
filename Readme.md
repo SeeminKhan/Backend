@@ -1,7 +1,7 @@
-### **📌 User Profile Management API**  
+## **📌 User Profile Management API**  
 A RESTful API for managing user profiles with authentication.  
 
-## **🚀 Installation & Setup**  
+### **🚀 Installation & Setup**  
 
 ### **1️⃣ Clone the Repository**  
 ```sh
@@ -40,28 +40,24 @@ The API will run on **`http://localhost:5000`**
 ### **🔹 User Profile (Protected)**  
 - `GET /api/users/profile` → Get logged-in user's profile  
 - `PUT /api/users/profile` → Update logged-in user's profile  
-
-🔒 **Protected Routes** require a **JWT token** in the `Authorization` header:  
-```
-Authorization: Bearer <your_token_here>
-```
-
----
+--
 
 ## **📖 Postman Documentation**  
 For easy API testing, use the Postman collection:  
 
 **import the collection** manually:  
-- Download [`postman_collection.json`](./Backend.postman_collection.json)  
-- Import into Postman  
+- Download `Backend.postman_collection.json`  
+- Import into Postman
+
+## Here are some sample API responses tested in Postman:
+
+### 🔹 Register User API
+![Register User](./assets/postman-test-1.png)
+
+### 🔹 Login API
+![Login API](./assets/postman-test-2.png)
+
+### 🔹 Get User Profile API
+![User Profile](./assets/postman-test-3.png)
 
 ---
-
-## **📜 Sample `.env` File**  
-Copy this and update with your values:  
-
-```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-```
