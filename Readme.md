@@ -61,7 +61,7 @@ For easy API testing, use the Postman collection:
 ### 🔹 Get User Profile API
 ![User Profile](./assets/profile.png)
 
-### 🔹 Get User Profile API
+### 🔹 Update User Profile API
 ![Update User Profile](./assets/update.png)
 
 ---
